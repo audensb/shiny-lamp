@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SkateLocal</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
@@ -12,12 +12,13 @@
   <header class="top-bar">
     <div class="logo" onclick="goHome()">SkateLocal</div>
     <nav class="nav-links">
+      <a href="#contact"><img src="placeholder-maps.png" alt="Location" /></a>
+      <a href="#contact"><img src="placeholder-insta.png" alt="Instagram" /></a>
+      <a href="#contact"><img src="placeholder-mail.png" alt="Email" /></a>
+      <input type="text" class="search-bar" placeholder="Search..." />
       <a href="#videos">Videos</a>
       <a href="#community">Community</a>
       <a href="#shop">Shop</a>
-      <a href="#contact"><img src="placeholder-mail.png" alt="Email" /></a>
-      <a href="#contact"><img src="placeholder-insta.png" alt="Instagram" /></a>
-      <a href="#contact"><img src="placeholder-maps.png" alt="Location" /></a>
     </nav>
   </header>
 
@@ -45,28 +46,31 @@
   <main class="main-content">
     <!-- Articles Sidebar -->
     <aside class="articles">
-      <h2>Articles</h2>
+      <h2>ARTICLES</h2>
       <div class="article">
-        <img src="article1.jpg" alt="Article 1" />
-        <p>Blurb for article 1</p>
+        <div class="article-thumb">PHOTO HERE</div>
+        <p>Text summarizing the article and providing info</p>
       </div>
       <div class="article">
-        <img src="article2.jpg" alt="Article 2" />
-        <p>Blurb for article 2</p>
+        <div class="article-thumb">PHOTO HERE</div>
+        <p>Text summarizing the article and providing info</p>
       </div>
       <div class="article">
-        <img src="article3.jpg" alt="Article 3" />
-        <p>Blurb for article 3</p>
+        <div class="article-thumb">PHOTO HERE</div>
+        <p>Text summarizing the article and providing info</p>
       </div>
     </aside>
 
     <!-- Featured Video -->
     <section class="featured-video">
-      <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
-      <p>Video description goes here</p>
+      <div class="video-container">
+        <div class="video-placeholder">▶ Video Player</div>
+      </div>
+      <p>Text including info about the video</p>
     </section>
   </main>
 
   <script src="script.js"></script>
 </body>
 </html>
+
