@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkateLocal</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <header class="top-bar">
+    <div class="logo" onclick="goHome()">SkateLocal</div>
+    <nav class="nav-links">
+      <a href="#videos">Videos</a>
+      <a href="#community">Community</a>
+      <a href="#shop">Shop</a>
+      <a href="#contact"><img src="placeholder-mail.png" alt="Email" /></a>
+      <a href="#contact"><img src="placeholder-insta.png" alt="Instagram" /></a>
+      <a href="#contact"><img src="placeholder-maps.png" alt="Location" /></a>
+    </nav>
+  </header>
+
+  <!-- Photo Strip -->
+  <section class="photo-strip">
+    <div class="photo-item">
+      <img src="placeholder1.jpg" alt="Skate Photo 1" />
+      <p>Photo description 1</p>
+    </div>
+    <div class="photo-item">
+      <img src="placeholder2.jpg" alt="Skate Photo 2" />
+      <p>Photo description 2</p>
+    </div>
+    <div class="photo-item">
+      <img src="placeholder3.jpg" alt="Skate Photo 3" />
+      <p>Photo description 3</p>
+    </div>
+    <div class="photo-item">
+      <img src="placeholder4.jpg" alt="Skate Photo 4" />
+      <p>Photo description 4</p>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Articles Sidebar -->
+    <aside class="articles">
+      <h2>Articles</h2>
+      <div class="article">
+        <img src="article1.jpg" alt="Article 1" />
+        <p>Blurb for article 1</p>
+      </div>
+      <div class="article">
+        <img src="article2.jpg" alt="Article 2" />
+        <p>Blurb for article 2</p>
+      </div>
+      <div class="article">
+        <img src="article3.jpg" alt="Article 3" />
+        <p>Blurb for article 3</p>
+      </div>
+    </aside>
+
+    <!-- Featured Video -->
+    <section class="featured-video">
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+      <p>Video description goes here</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
